@@ -126,8 +126,8 @@ func fetchValidator(ctx context.Context, data *dataIn) (*api.Validator, error) {
 	for _, v := range validators {
 		validator = v
 	}
-	if validator.Status != api.ValidatorStateActiveOngoing {
-		return nil, errors.New("validator is not active; cannot exit")
-	}
+	// if validator.Status != api.ValidatorStateActiveOngoing {
+	// 	return nil, errors.New("validator is not active; cannot exit")
+	// }
 	return validator, nil
 }
