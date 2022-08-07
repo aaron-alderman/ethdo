@@ -32,11 +32,11 @@ func process(ctx context.Context, data *dataIn) (*dataOut, error) {
 		return nil, errors.New("no data")
 	}
 
-	if data.epoch > data.currentEpoch {
-		if data.epoch-data.currentEpoch > maxFutureEpochs {
-			return nil, errors.New("not generating exit for an epoch in the far future")
-		}
-	}
+	// if data.epoch > data.currentEpoch {
+	// 	if data.epoch-data.currentEpoch > maxFutureEpochs {
+	// 		return nil, errors.New("not generating exit for an epoch in the far future")
+	// 	}
+	// }
 	results := &dataOut{
 		forkVersion: data.fork.CurrentVersion,
 		jsonOutput:  data.jsonOutput,
