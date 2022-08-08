@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	validatorkeycheck "github.com/aaron-alderman/ethdo/cmd/validator/keycheck"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	validatorkeycheck "github.com/wealdtech/ethdo/cmd/validator/keycheck"
 )
 
 var validatorKeycheckCmd = &cobra.Command{

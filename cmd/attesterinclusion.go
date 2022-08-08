@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	attesterinclusion "github.com/aaron-alderman/ethdo/cmd/attester/inclusion"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	attesterinclusion "github.com/wealdtech/ethdo/cmd/attester/inclusion"
 )
 
 var attesterInclusionCmd = &cobra.Command{

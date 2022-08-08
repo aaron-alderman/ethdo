@@ -19,7 +19,7 @@ package chaintime
 //
 // 	api "github.com/attestantio/go-eth2-client/api/v1"
 // 	"github.com/stretchr/testify/require"
-// 	"github.com/wealdtech/ethdo/testutil"
+// 	"github.com/aaron-alderman/ethdo/testutil"
 // )
 //
 // func TestOutput(t *testing.T) {

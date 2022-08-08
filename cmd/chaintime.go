@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	chaintime "github.com/aaron-alderman/ethdo/cmd/chain/time"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	chaintime "github.com/wealdtech/ethdo/cmd/chain/time"
 )
 
 var chainTimeCmd = &cobra.Command{

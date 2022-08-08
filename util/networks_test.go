@@ -17,10 +17,10 @@ import (
 	"context"
 	"testing"
 
+	"github.com/aaron-alderman/ethdo/testutil"
+	"github.com/aaron-alderman/ethdo/util"
 	eth2client "github.com/attestantio/go-eth2-client"
 	"github.com/stretchr/testify/require"
-	"github.com/wealdtech/ethdo/testutil"
-	"github.com/wealdtech/ethdo/util"
 )
 
 // A mock Ethereum 2 client service that returns spec information.

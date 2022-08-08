@@ -19,12 +19,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/aaron-alderman/ethdo/testutil"
 	api "github.com/attestantio/go-eth2-client/api/v1"
 	"github.com/attestantio/go-eth2-client/auto"
 	spec "github.com/attestantio/go-eth2-client/spec/phase0"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
-	"github.com/wealdtech/ethdo/testutil"
 	e2types "github.com/wealdtech/go-eth2-types/v2"
 	e2wallet "github.com/wealdtech/go-eth2-wallet"
 	keystorev4 "github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4"

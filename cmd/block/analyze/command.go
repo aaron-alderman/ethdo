@@ -17,12 +17,12 @@ import (
 	"context"
 	"time"
 
+	"github.com/aaron-alderman/ethdo/services/chaintime"
 	eth2client "github.com/attestantio/go-eth2-client"
 	"github.com/attestantio/go-eth2-client/spec/phase0"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/go-bitfield"
 	"github.com/spf13/viper"
-	"github.com/wealdtech/ethdo/services/chaintime"
 )
 
 type command struct {

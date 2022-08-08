@@ -16,8 +16,8 @@ package cmd
 import (
 	"fmt"
 
+	walletexport "github.com/aaron-alderman/ethdo/cmd/wallet/export"
 	"github.com/spf13/cobra"
-	walletexport "github.com/wealdtech/ethdo/cmd/wallet/export"
 )
 
 var walletExportCmd = &cobra.Command{

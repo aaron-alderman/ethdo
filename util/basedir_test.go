@@ -16,9 +16,9 @@ package util_test
 import (
 	"testing"
 
+	"github.com/aaron-alderman/ethdo/util"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
-	"github.com/wealdtech/ethdo/util"
 )
 
 func TestBaseDir(t *testing.T) {

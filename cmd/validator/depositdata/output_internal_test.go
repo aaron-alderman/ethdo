@@ -16,9 +16,9 @@ package depositdata
 import (
 	"testing"
 
+	"github.com/aaron-alderman/ethdo/testutil"
 	spec "github.com/attestantio/go-eth2-client/spec/phase0"
 	"github.com/stretchr/testify/require"
-	"github.com/wealdtech/ethdo/testutil"
 )
 
 func TestOutputJSON(t *testing.T) {

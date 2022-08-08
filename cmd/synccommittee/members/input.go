@@ -17,12 +17,12 @@ import (
 	"context"
 	"time"
 
+	"github.com/aaron-alderman/ethdo/services/chaintime"
+	standardchaintime "github.com/aaron-alderman/ethdo/services/chaintime/standard"
+	"github.com/aaron-alderman/ethdo/util"
 	eth2client "github.com/attestantio/go-eth2-client"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
-	"github.com/wealdtech/ethdo/services/chaintime"
-	standardchaintime "github.com/wealdtech/ethdo/services/chaintime/standard"
-	"github.com/wealdtech/ethdo/util"
 )
 
 type dataIn struct {

@@ -17,9 +17,9 @@ import (
 	"context"
 	"strconv"
 
+	"github.com/aaron-alderman/ethdo/services/chaintime"
 	"github.com/attestantio/go-eth2-client/spec/phase0"
 	"github.com/pkg/errors"
-	"github.com/wealdtech/ethdo/services/chaintime"
 )
 
 // ParseEpoch parses input to calculate the desired epoch.

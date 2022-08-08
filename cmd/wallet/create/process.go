@@ -18,9 +18,9 @@ import (
 	"crypto/rand"
 	"strings"
 
+	"github.com/aaron-alderman/ethdo/util"
 	"github.com/pkg/errors"
 	bip39 "github.com/tyler-smith/go-bip39"
-	"github.com/wealdtech/ethdo/util"
 	distributed "github.com/wealdtech/go-eth2-wallet-distributed"
 	keystorev4 "github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4"
 	hd "github.com/wealdtech/go-eth2-wallet-hd/v2"

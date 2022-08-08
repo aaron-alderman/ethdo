@@ -13,7 +13,7 @@
 
 package main
 
-import "github.com/wealdtech/ethdo/cmd"
+import "github.com/aaron-alderman/ethdo/cmd"
 
 func main() {
 	cmd.Execute()

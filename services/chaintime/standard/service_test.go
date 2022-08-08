@@ -18,12 +18,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/aaron-alderman/ethdo/services/chaintime"
+	"github.com/aaron-alderman/ethdo/services/chaintime/standard"
+	"github.com/aaron-alderman/ethdo/testing/mock"
 	"github.com/attestantio/go-eth2-client/spec/phase0"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
-	"github.com/wealdtech/ethdo/services/chaintime"
-	"github.com/wealdtech/ethdo/services/chaintime/standard"
-	"github.com/wealdtech/ethdo/testing/mock"
 )
 
 func TestService(t *testing.T) {

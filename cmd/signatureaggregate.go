@@ -20,10 +20,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/aaron-alderman/ethdo/util"
 	"github.com/herumi/bls-eth-go-binary/bls"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
-	"github.com/wealdtech/ethdo/util"
 )
 
 var signatureAggregateSignatures []string

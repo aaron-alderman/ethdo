@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	nodeevents "github.com/aaron-alderman/ethdo/cmd/node/events"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	nodeevents "github.com/wealdtech/ethdo/cmd/node/events"
 )
 
 var nodeEventsCmd = &cobra.Command{

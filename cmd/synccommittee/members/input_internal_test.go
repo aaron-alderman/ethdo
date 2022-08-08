@@ -18,9 +18,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/aaron-alderman/ethdo/testutil"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
-	"github.com/wealdtech/ethdo/testutil"
 	e2types "github.com/wealdtech/go-eth2-types/v2"
 	e2wallet "github.com/wealdtech/go-eth2-wallet"
 	keystorev4 "github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4"

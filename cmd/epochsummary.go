@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	epochsummary "github.com/aaron-alderman/ethdo/cmd/epoch/summary"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	epochsummary "github.com/wealdtech/ethdo/cmd/epoch/summary"
 )
 
 var epochSummaryCmd = &cobra.Command{

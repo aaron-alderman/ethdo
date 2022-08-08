@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	validatordepositdata "github.com/aaron-alderman/ethdo/cmd/validator/depositdata"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	validatordepositdata "github.com/wealdtech/ethdo/cmd/validator/depositdata"
 )
 
 var validatorDepositDataCmd = &cobra.Command{

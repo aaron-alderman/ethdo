@@ -19,10 +19,10 @@ import (
 	"strings"
 	"time"
 
+	ethdoutil "github.com/aaron-alderman/ethdo/util"
 	spec "github.com/attestantio/go-eth2-client/spec/phase0"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
-	ethdoutil "github.com/wealdtech/ethdo/util"
 	e2types "github.com/wealdtech/go-eth2-types/v2"
 	e2wtypes "github.com/wealdtech/go-eth2-wallet-types/v2"
 	string2eth "github.com/wealdtech/go-string2eth"

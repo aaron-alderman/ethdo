@@ -17,9 +17,9 @@ import (
 	"fmt"
 	"strings"
 
+	validatorexpectation "github.com/aaron-alderman/ethdo/cmd/validator/expectation"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	validatorexpectation "github.com/wealdtech/ethdo/cmd/validator/expectation"
 )
 
 var validatorExpectationCmd = &cobra.Command{

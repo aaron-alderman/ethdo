@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	blockanalyze "github.com/aaron-alderman/ethdo/cmd/block/analyze"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	blockanalyze "github.com/wealdtech/ethdo/cmd/block/analyze"
 )
 
 var blockAnalyzeCmd = &cobra.Command{

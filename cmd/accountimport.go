@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	accountimport "github.com/aaron-alderman/ethdo/cmd/account/import"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	accountimport "github.com/wealdtech/ethdo/cmd/account/import"
 )
 
 var accountImportCmd = &cobra.Command{

@@ -16,8 +16,8 @@ package cmd
 import (
 	"fmt"
 
+	chainverifysignedcontributionandproof "github.com/aaron-alderman/ethdo/cmd/chain/verify/signedcontributionandproof"
 	"github.com/spf13/cobra"
-	chainverifysignedcontributionandproof "github.com/wealdtech/ethdo/cmd/chain/verify/signedcontributionandproof"
 )
 
 var chainVerifySignedContributionAndProofCmd = &cobra.Command{

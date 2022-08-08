@@ -17,9 +17,9 @@ import (
 	"context"
 	"encoding/json"
 
+	"github.com/aaron-alderman/ethdo/util"
 	spec "github.com/attestantio/go-eth2-client/spec/phase0"
 	"github.com/pkg/errors"
-	"github.com/wealdtech/ethdo/util"
 )
 
 type dataOut struct {

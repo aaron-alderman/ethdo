@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	attesterduties "github.com/aaron-alderman/ethdo/cmd/attester/duties"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	attesterduties "github.com/wealdtech/ethdo/cmd/attester/duties"
 )
 
 var attesterDutiesCmd = &cobra.Command{

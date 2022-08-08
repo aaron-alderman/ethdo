@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	validatorcredentialsget "github.com/aaron-alderman/ethdo/cmd/validator/credentials/get"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	validatorcredentialsget "github.com/wealdtech/ethdo/cmd/validator/credentials/get"
 )
 
 var validatorCredentialsGetCmd = &cobra.Command{

@@ -17,8 +17,8 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/aaron-alderman/ethdo/util"
 	"github.com/stretchr/testify/require"
-	"github.com/wealdtech/ethdo/util"
 )
 
 func TestUnmarshal(t *testing.T) {

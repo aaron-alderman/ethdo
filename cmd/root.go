@@ -21,12 +21,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/aaron-alderman/ethdo/util"
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/wealdtech/ethdo/util"
 	e2types "github.com/wealdtech/go-eth2-types/v2"
 	e2wallet "github.com/wealdtech/go-eth2-wallet"
 	dirk "github.com/wealdtech/go-eth2-wallet-dirk"

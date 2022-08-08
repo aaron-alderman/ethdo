@@ -737,7 +737,7 @@ Jim McDonald: [@mcdee](https://github.com/mcdee).
 
 ## Contribute
 
-Contributions welcome. Please check out [the issues](https://github.com/wealdtech/ethdo/issues).
+Contributions welcome. Please check out [the issues](https://github.com/aaron-alderman/ethdo/issues).
 
 ## License
 

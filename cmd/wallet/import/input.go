@@ -20,9 +20,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/aaron-alderman/ethdo/util"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
-	"github.com/wealdtech/ethdo/util"
 )
 
 type dataIn struct {

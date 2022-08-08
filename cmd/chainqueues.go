@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	chainqueues "github.com/aaron-alderman/ethdo/cmd/chain/queues"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	chainqueues "github.com/wealdtech/ethdo/cmd/chain/queues"
 )
 
 var chainQueuesCmd = &cobra.Command{

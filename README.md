@@ -1,6 +1,6 @@
-[![Tag](https://img.shields.io/github/tag/wealdtech/ethdo.svg)](https://github.com/wealdtech/ethdo/releases/)
+[![Tag](https://img.shields.io/github/tag/wealdtech/ethdo.svg)](https://github.com/aaron-alderman/ethdo/releases/)
 [![License](https://img.shields.io/github/license/wealdtech/ethdo.svg)](LICENSE)
-[![GoDoc](https://godoc.org/github.com/wealdtech/ethdo?status.svg)](https://godoc.org/github.com/wealdtech/ethdo)
+[![GoDoc](https://godoc.org/github.com/aaron-alderman/ethdo?status.svg)](https://godoc.org/github.com/aaron-alderman/ethdo)
 [![Travis CI](https://img.shields.io/travis/wealdtech/ethdo.svg)](https://travis-ci.org/wealdtech/ethdo)
 
 A command-line tool for managing common tasks in Ethereum 2.
@@ -21,7 +21,7 @@ A command-line tool for managing common tasks in Ethereum 2.
 
 ### Binaries
 
-Binaries for the latest version of `ethdo` can be obtained from [the releases page](https://github.com/wealdtech/ethdo/releases).
+Binaries for the latest version of `ethdo` can be obtained from [the releases page](https://github.com/aaron-alderman/ethdo/releases).
 
 ### Docker
 
@@ -35,12 +35,12 @@ docker pull wealdtech/ethdo
 `ethdo` is a standard Go program which can be installed with:
 
 ```sh
-GO111MODULE=on go get github.com/wealdtech/ethdo
+GO111MODULE=on go get github.com/aaron-alderman/ethdo
 ```
 
 Note that `ethdo` requires at least version 1.13 of go to operate.  The version of go can be found with `go version`.
 
-If this does not work please see the [troubleshooting](https://github.com/wealdtech/ethdo/blob/master/docs/troubleshooting.md) page.
+If this does not work please see the [troubleshooting](https://github.com/aaron-alderman/ethdo/blob/master/docs/troubleshooting.md) page.
 
 The docker image can be build locally with:
 
@@ -168,11 +168,11 @@ In addition, the following rules apply to passphrases supplied on the command li
 
 # Commands
 
-Command information, along with sample outputs and optional arguments, is available in [the usage section](https://github.com/wealdtech/ethdo/blob/master/docs/usage.md).
+Command information, along with sample outputs and optional arguments, is available in [the usage section](https://github.com/aaron-alderman/ethdo/blob/master/docs/usage.md).
 
 # HOWTO
 
-There is a [HOWTO](https://github.com/wealdtech/ethdo/blob/master/docs/howto.md) that covers details about how to carry out various common tasks.  There is also a specific document that provides details of how to carry out [common conversions](docs/conversions.md) from mnemonic, to account, to deposit data, for launchpad-related configurations.
+There is a [HOWTO](https://github.com/aaron-alderman/ethdo/blob/master/docs/howto.md) that covers details about how to carry out various common tasks.  There is also a specific document that provides details of how to carry out [common conversions](docs/conversions.md) from mnemonic, to account, to deposit data, for launchpad-related configurations.
 
 ## Maintainers
 
@@ -182,7 +182,7 @@ Special thanks to [@SuburbanDad](https://github.com/SuburbanDad) for updating xg
 
 ## Contribute
 
-Contributions welcome. Please check out [the issues](https://github.com/wealdtech/ethdo/issues).
+Contributions welcome. Please check out [the issues](https://github.com/aaron-alderman/ethdo/issues).
 
 ## License
 

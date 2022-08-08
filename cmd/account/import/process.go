@@ -17,8 +17,8 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/aaron-alderman/ethdo/util"
 	"github.com/pkg/errors"
-	"github.com/wealdtech/ethdo/util"
 	"github.com/wealdtech/go-ecodec"
 	keystorev4 "github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4"
 	nd "github.com/wealdtech/go-eth2-wallet-nd/v2"

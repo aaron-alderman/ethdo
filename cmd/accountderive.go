@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	accountderive "github.com/aaron-alderman/ethdo/cmd/account/derive"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	accountderive "github.com/wealdtech/ethdo/cmd/account/derive"
 )
 
 var accountDeriveCmd = &cobra.Command{

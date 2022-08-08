@@ -17,9 +17,9 @@ import (
 	"context"
 	"time"
 
+	"github.com/aaron-alderman/ethdo/util"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
-	"github.com/wealdtech/ethdo/util"
 	e2wtypes "github.com/wealdtech/go-eth2-wallet-types/v2"
 )
 

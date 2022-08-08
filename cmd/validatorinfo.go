@@ -25,13 +25,13 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/aaron-alderman/ethdo/util"
 	eth2client "github.com/attestantio/go-eth2-client"
 	api "github.com/attestantio/go-eth2-client/api/v1"
 	spec "github.com/attestantio/go-eth2-client/spec/phase0"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/wealdtech/ethdo/util"
 	e2wtypes "github.com/wealdtech/go-eth2-wallet-types/v2"
 	string2eth "github.com/wealdtech/go-string2eth"
 )

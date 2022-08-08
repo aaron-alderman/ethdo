@@ -21,10 +21,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/aaron-alderman/ethdo/util"
 	eth2client "github.com/attestantio/go-eth2-client"
 	"github.com/attestantio/go-eth2-client/spec/phase0"
 	"github.com/pkg/errors"
-	"github.com/wealdtech/ethdo/util"
 )
 
 func (c *command) process(ctx context.Context) error {

@@ -18,12 +18,12 @@ import (
 	"context"
 	"fmt"
 
+	standardchaintime "github.com/aaron-alderman/ethdo/services/chaintime/standard"
+	"github.com/aaron-alderman/ethdo/util"
 	eth2client "github.com/attestantio/go-eth2-client"
 	api "github.com/attestantio/go-eth2-client/api/v1"
 	"github.com/attestantio/go-eth2-client/spec/phase0"
 	"github.com/pkg/errors"
-	standardchaintime "github.com/wealdtech/ethdo/services/chaintime/standard"
-	"github.com/wealdtech/ethdo/util"
 )
 
 func process(ctx context.Context, data *dataIn) (*dataOut, error) {

@@ -16,8 +16,8 @@ package util_test
 import (
 	"testing"
 
+	"github.com/aaron-alderman/ethdo/util"
 	"github.com/stretchr/testify/require"
-	"github.com/wealdtech/ethdo/util"
 	e2types "github.com/wealdtech/go-eth2-types/v2"
 )
 

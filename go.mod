@@ -1,4 +1,4 @@
-module github.com/wealdtech/ethdo
+module github.com/aaron-alderman/ethdo
 
 go 1.16
 

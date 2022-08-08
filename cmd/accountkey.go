@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	accountkey "github.com/aaron-alderman/ethdo/cmd/account/key"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	accountkey "github.com/wealdtech/ethdo/cmd/account/key"
 )
 
 // accountKeyCmd represents the account key command

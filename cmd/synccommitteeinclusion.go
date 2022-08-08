@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	synccommitteeinclusion "github.com/aaron-alderman/ethdo/cmd/synccommittee/inclusion"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	synccommitteeinclusion "github.com/wealdtech/ethdo/cmd/synccommittee/inclusion"
 )
 
 var synccommitteeInclusionCmd = &cobra.Command{

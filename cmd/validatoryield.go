@@ -17,9 +17,9 @@ import (
 	"fmt"
 	"strings"
 
+	validatoryield "github.com/aaron-alderman/ethdo/cmd/validator/yield"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	validatoryield "github.com/wealdtech/ethdo/cmd/validator/yield"
 )
 
 var validatorYieldCmd = &cobra.Command{

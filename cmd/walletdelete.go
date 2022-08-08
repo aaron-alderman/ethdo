@@ -16,8 +16,8 @@ package cmd
 import (
 	"fmt"
 
+	walletdelete "github.com/aaron-alderman/ethdo/cmd/wallet/delete"
 	"github.com/spf13/cobra"
-	walletdelete "github.com/wealdtech/ethdo/cmd/wallet/delete"
 )
 
 var walletDeleteCmd = &cobra.Command{

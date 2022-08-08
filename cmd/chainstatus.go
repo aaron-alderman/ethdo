@@ -20,11 +20,11 @@ import (
 	"strings"
 	"time"
 
+	standardchaintime "github.com/aaron-alderman/ethdo/services/chaintime/standard"
+	"github.com/aaron-alderman/ethdo/util"
 	eth2client "github.com/attestantio/go-eth2-client"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	standardchaintime "github.com/wealdtech/ethdo/services/chaintime/standard"
-	"github.com/wealdtech/ethdo/util"
 )
 
 var chainStatusCmd = &cobra.Command{

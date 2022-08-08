@@ -18,11 +18,11 @@ import (
 	"os"
 	"testing"
 
+	standardchaintime "github.com/aaron-alderman/ethdo/services/chaintime/standard"
 	eth2client "github.com/attestantio/go-eth2-client"
 	"github.com/attestantio/go-eth2-client/auto"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
-	standardchaintime "github.com/wealdtech/ethdo/services/chaintime/standard"
 )
 
 func TestProcess(t *testing.T) {

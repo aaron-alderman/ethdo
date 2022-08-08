@@ -16,8 +16,8 @@ package util
 import (
 	"testing"
 
+	"github.com/aaron-alderman/ethdo/testutil"
 	"github.com/stretchr/testify/require"
-	"github.com/wealdtech/ethdo/testutil"
 )
 
 func TestNetworksInternal(t *testing.T) {

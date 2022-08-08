@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	proposerduties "github.com/aaron-alderman/ethdo/cmd/proposer/duties"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	proposerduties "github.com/wealdtech/ethdo/cmd/proposer/duties"
 )
 
 var proposerDutiesCmd = &cobra.Command{

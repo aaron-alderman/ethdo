@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	chaineth1votes "github.com/aaron-alderman/ethdo/cmd/chain/eth1votes"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	chaineth1votes "github.com/wealdtech/ethdo/cmd/chain/eth1votes"
 )
 
 var chainEth1VotesCmd = &cobra.Command{

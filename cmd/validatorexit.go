@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	validatorexit "github.com/aaron-alderman/ethdo/cmd/validator/exit"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	validatorexit "github.com/wealdtech/ethdo/cmd/validator/exit"
 )
 
 var validatorExitCmd = &cobra.Command{

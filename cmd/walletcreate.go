@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	walletcreate "github.com/aaron-alderman/ethdo/cmd/wallet/create"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	walletcreate "github.com/wealdtech/ethdo/cmd/wallet/create"
 )
 
 var walletCreateCmd = &cobra.Command{

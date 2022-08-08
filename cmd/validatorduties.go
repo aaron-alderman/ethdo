@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	validatorduties "github.com/aaron-alderman/ethdo/cmd/validator/duties"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	validatorduties "github.com/wealdtech/ethdo/cmd/validator/duties"
 )
 
 var validatorDutiesCmd = &cobra.Command{

@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	slottime "github.com/aaron-alderman/ethdo/cmd/slot/time"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	slottime "github.com/wealdtech/ethdo/cmd/slot/time"
 )
 
 var slotTimeCmd = &cobra.Command{

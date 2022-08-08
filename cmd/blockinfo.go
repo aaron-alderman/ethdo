@@ -16,9 +16,9 @@ package cmd
 import (
 	"fmt"
 
+	blockinfo "github.com/aaron-alderman/ethdo/cmd/block/info"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	blockinfo "github.com/wealdtech/ethdo/cmd/block/info"
 )
 
 var blockInfoCmd = &cobra.Command{

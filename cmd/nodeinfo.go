@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/aaron-alderman/ethdo/util"
 	eth2client "github.com/attestantio/go-eth2-client"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/wealdtech/ethdo/util"
 )
 
 var nodeInfoCmd = &cobra.Command{

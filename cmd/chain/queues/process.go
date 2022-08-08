@@ -17,10 +17,10 @@ import (
 	"context"
 	"fmt"
 
+	standardchaintime "github.com/aaron-alderman/ethdo/services/chaintime/standard"
+	"github.com/aaron-alderman/ethdo/util"
 	eth2client "github.com/attestantio/go-eth2-client"
 	"github.com/pkg/errors"
-	standardchaintime "github.com/wealdtech/ethdo/services/chaintime/standard"
-	"github.com/wealdtech/ethdo/util"
 )
 
 func (c *command) process(ctx context.Context) error {
