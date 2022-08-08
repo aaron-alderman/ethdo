@@ -25,7 +25,7 @@ import (
 )
 
 // maxFutureEpochs is the farthest in the future for which an exit will be created.
-var maxFutureEpochs = spec.Epoch(1024)
+// var maxFutureEpochs = spec.Epoch(1024)
 
 func process(ctx context.Context, data *dataIn) (*dataOut, error) {
 	if data == nil {
