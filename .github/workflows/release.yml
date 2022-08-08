@@ -62,7 +62,7 @@ jobs:
 
     - name: Create windows release files
       run: |
-       mv ethdo-windows-4.0-amd64.exe ethdo.exe
+       mv ethdo-windows-amd64.exe ethdo.exe
        zip --junk-paths ethdo-${RELEASE_VERSION}-windows-exe.zip ethdo.exe
        sha256sum ethdo-${RELEASE_VERSION}-windows-exe.zip >ethdo-${RELEASE_VERSION}-windows.sha256
 
